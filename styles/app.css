@@ -1,0 +1,30 @@
+@import "normalize.scss";
+
+html,
+body {
+    font-size: 16px;
+}
+.box {
+}
+
+.intro {
+    background: url("../images/intro.jpg") no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+
+.intro .intro__layer {
+    background: rgba(40, 60, 90, 0.5);
+}
+.intro.intro__logo {
+    width: 100%;
+    max-width: 2.75rem;
+    height: auto;
+    max-height: 2.75rem;
+}
+.intro.intro__hdl {
+}
+.intro.intro__hdl.intro__hdl--secondary {
+}
+.intro.intro__lead {
+}
